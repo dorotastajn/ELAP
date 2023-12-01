@@ -1,0 +1,58 @@
+body{
+    background-color: whitesmoke;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #628E90, #B4CDE6, #F5EFE6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+a{
+    color: #628E90;
+}
+
+#heading{
+    font-family: 'Bitter', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    color: #436061 !important;
+}
+#exlibris{
+    margin-right: 0px!important;
+}
+
+.btn{
+  --bs-btn-bg: whitesmoke;
+  --bs-btn-color: #628E90 ;
+  --bs-btn-border-color: #628E90;
+  --bs-btn-hover-color: whitesmoke;
+  --bs-btn-hover-bg: #628E90;
+  --bs-btn-hover-border-color: #628E90;
+}
+
+#potulky{
+  --bs-btn-bg: #628E90;
+  --bs-btn-color: whitesmoke; 
+  --bs-btn-border-color: #628E90;
+  --bs-btn-hover-color: #628E90;
+  --bs-btn-hover-bg: whitesmoke;
+  --bs-btn-hover-border-color: #628E90;
+
+}
+
+img{
+    width: 70%;
+}
